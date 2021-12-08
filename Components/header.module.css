@@ -26,7 +26,7 @@
   height: 100%;
 }
 
-.navbar .container{
+.navbar .container {
   justify-content: space-between;
 }
 
@@ -37,19 +37,7 @@
   .navbar h1 {
     font-size: 35px;
   }
-  .navbar .flex {
+  .container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .showcase .grid {
-    overflow: visible;
-    grid-template-columns: 1fr;
-    gap: 0px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .navbar h1 {
-    font-size: 25px;
   }
 }

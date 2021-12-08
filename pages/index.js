@@ -1,14 +1,13 @@
 import Head from "next/head";
-import Header from "../Components/Header";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Allyson Freeman</title>
+        <link rel="icon" href="/icon.png" />
       </Head>
-      <Header></Header>
+
       <main>
         <section className={"showcase"}>
           <div className={"container grid"}>
