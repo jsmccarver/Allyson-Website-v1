@@ -1,0 +1,87 @@
+.showcase {
+  height: 400px;
+  background-color: #fbbbc9;
+  color: #fff;
+  position: relative;
+}
+
+.showcaseform {
+  position: relative;
+  top: 60px;
+  height: 350px;
+  width: 400px;
+  padding: 40px;
+  z-index: 100;
+  justify-self: flex-end;
+}
+.showcase .grid {
+  overflow: visible;
+  grid-template-columns: 55% auto;
+  gap: 30px;
+}
+.showcase h1 {
+  font-size: 40px;
+}
+
+.showcase p {
+  margin: 20px 0;
+}
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+.showcaseform input[type="text"],
+.showcaseform input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #8fd7b1;
+  width: 100%;
+  padding: 3px;
+}
+.showcaseform .formcontrol {
+  margin: 30px 0;
+}
+.showcaseform input:focus {
+  outline: none;
+}
+.showcase::before,
+.showcase::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-4deg);
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+}
+.showcaseform .formcontrol {
+  margin: 25px 0;
+}
+@media screen and (max-width: 950px) {
+  .showcase-text {
+    text-align: center;
+    margin-top: 40px;
+     margin: 0 30px;
+  }
+  .showcaseform {
+    justify-self: center;
+    margin: auto;
+    width: 350px;
+    }
+}
+@media screen and (max-width: 740px) {
+  .grid {
+    grid-template-columns: none !important;
+  }
+  .showcaseform {
+    width: 82vw;
+    top: 0;
+  }
+}
