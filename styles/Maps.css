@@ -1,9 +1,14 @@
-.design {
-  padding-right: 15%;
-  padding-left: 15%;
+.map {
+  display: grid;
+  grid-template-columns: 20fr 80fr;
+  margin: 0px;
+  padding: 0px;
 }
 
-.gallery {
-  height: 300px;
-  width: 100%;
+.map iframe {
+  display: block;
+  height: 93vh;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none;
 }
