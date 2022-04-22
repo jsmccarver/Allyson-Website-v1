@@ -1,7 +1,7 @@
 function about() {
   return (
     <div>
-      <p>I am geology. Look upon my mighty rocks and despair</p>
+      <p>Hello! I&apos;m Allyson! I have a BSc in Geology from NCSU and am finishing up a graduate certificate in geographic information systems. I really like making cute maps!</p>
     </div>
   );
 }
