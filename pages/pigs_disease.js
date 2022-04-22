@@ -1,8 +1,8 @@
 function pigs_disease() {
   return (<div>
             <div>
-            You can view the Machado Lab&apos;s website  
-              <a href="https://machado-lab.github.io/">here:
+            You can view the Machado Lab&apos;s website   
+              <a href="https://machado-lab.github.io/">here
               </a>
             </div>
             <div>
